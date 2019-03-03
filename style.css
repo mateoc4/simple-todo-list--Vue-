@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+    background: linear-gradient(to right,#374859, #98f370);
+    color: white;
+   font-family: 'Laila', serif;
+}
+#app{
+    width: 400px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style: none; 
+}
+
+li {
+    margin: 2em 0;
+    padding-top: 1em;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#newTodo{
+    display: block;
+    border: none;
+    width:280px;
+    margin-bottom: 15px;
+    color:white;
+    font-size:25px;
+    border-radius: 9%;
+    background: rgba(122, 122,122, 0.1);
+}
+
+button{
+    width: 90px;
+    padding: 10px;  
+    text-align: center;
+    border: 1px solid #FF8883;
+    font-size:16px;
+    background-color: white;
+    color:#ffc2bb;
+    border-radius: 9%;
+  }
